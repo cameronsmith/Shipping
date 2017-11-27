@@ -1,2 +1,2 @@
 # Shipping
-A shipping example
+A project showing shipping and dispatch OOP examples.
