@@ -4,8 +4,6 @@ use UKCASmith\Shipping\Contracts\Consignment;
 
 abstract class Courier
 {
-    protected static $consignmentNumbers = [];
-
     abstract public function add(Consignment $consignment);
     abstract public function send();
 
