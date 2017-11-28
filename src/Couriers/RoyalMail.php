@@ -5,6 +5,8 @@ use UKCASmith\Shipping\Contracts\Consignment;
 
 class RoyalMail extends Courier
 {
+    protected static $consignmentNumbers = [];
+
     /**
      * Add a consignment to courier.
      *
